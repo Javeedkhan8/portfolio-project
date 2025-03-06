@@ -21,8 +21,8 @@ const Login = () => {
   };
 
   return (
-    <div className="flex justify-center items-center min-h-screen bg-gradient-to-br from-blue-50 to-purple-100">
-      <div className="bg-white p-8 rounded-3xl shadow-2xl w-96 text-center">
+    <div className="flex justify-center items-center min-h-screen bg-gradient-to-br from-blue-50 to-purple-100 pt-20">
+      <div className="bg-white p-8 rounded-3xl shadow-2xl w-96 text-center max-w-lg mx-4 ">
         <h2 className="text-3xl font-bold text-gray-800 mb-6">Welcome Back 👋</h2>
         <p className="text-gray-500 mb-6">Connect with your companion</p>
 
