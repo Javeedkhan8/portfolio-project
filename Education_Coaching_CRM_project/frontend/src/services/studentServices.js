@@ -4,7 +4,7 @@ import { getAuthHeader } from "./authServices";
 const token = localStorage.getItem("token");
 
 
-const API_URL = "http://localhost:2000/api/students";
+const API_URL = "https://portfolio-project-1-54a8.onrender.com/api/students";
 
 export const getStudents = async () => {
     const response = await axios.get(API_URL,{headers:getAuthHeader()});
@@ -20,31 +20,6 @@ export const updateStudent = async (id,studentData) => {
     const response = await axios.put(`${API_URL}/${id}`,studentData,{headers:getAuthHeader()});
     return response.data
 }
-
-// export const getStudentCourses = async () => {
-//     const token = localStorage.getItem("token");
-
-//     if (!token) {
-//         console.error("No token found in localStorage");
-//         return [];
-//     }
-
-//     try {
-//         console.log("Fetching enrolled courses with token:", token);
-
-//         const res = await axios.get(`${API_URL}/courses`, {
-//             headers: {
-//                 Authorization: `Bearer ${token}`,
-//             },
-//         });
-
-//         console.log("Enrolled courses fetched successfully:", res.data);
-//         return res.data;
-//     } catch (error) {
-//         console.error("Error fetching enrolled courses:", error.response?.data || error.message);
-//         return [];
-//     }
-// };
 
 export const getStudentCourses = async () => {
     if (!token) {

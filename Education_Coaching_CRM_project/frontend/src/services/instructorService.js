@@ -3,12 +3,12 @@ import {getAuthHeader} from "./authServices"
 
 const token = localStorage.getItem("token");
 
-const API_URL = "http://localhost:2000/api/instructor";
+const API_URL = "https://portfolio-project-1-54a8.onrender.com/api/instructor";
 
 
 export const getInstructorCourses = async () => {
     if (!token) {
-        console.error("🚨 No token found in localStorage");
+        console.error(" No token found in localStorage");
         return [];
     }
 

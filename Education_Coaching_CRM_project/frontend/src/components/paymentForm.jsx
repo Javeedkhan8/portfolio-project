@@ -28,9 +28,9 @@ const PaymentForm = ({ courseId }) => {
 
                     const verify = await verifyPayment(paymentData);
                     if (verify.message === "Payment verified successfully") {
-                        setStatus("Payment Successful ✅");
+                        setStatus("Payment Successful ");
                     } else {
-                        setStatus("Payment Verification Failed ❌");
+                        setStatus("Payment Verification Failed");
                     }
                 },
                 prefill: {
@@ -43,7 +43,7 @@ const PaymentForm = ({ courseId }) => {
             const rzp = new window.Razorpay(options);
             rzp.open();
         } catch (error) {
-            setStatus("Payment Failed ❌");
+            setStatus("Payment Failed ",error);
         }
     };
 

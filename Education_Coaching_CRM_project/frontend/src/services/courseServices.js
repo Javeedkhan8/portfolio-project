@@ -1,7 +1,7 @@
 import axios from "axios";
 import { getAuthHeader } from "./authServices";
 
-const API_URL = "http://localhost:2000/api/courses";
+const API_URL = "https://portfolio-project-1-54a8.onrender.com/api/courses";
 
 export const getCourses = async () => {
     const response = await axios.get(API_URL, { headers: getAuthHeader() });
@@ -19,22 +19,21 @@ export const enrollStudent = async (courseId, studentId) => {
 };
 
 export const getEnrolledStudents = async (instructorId) => {
-    console.log("📢 Sending API request with Instructor ID:", instructorId);
+    console.log(" Sending API request with Instructor ID:", instructorId);
     const response = await axios.get(`${API_URL}/students/${instructorId}`, { headers: getAuthHeader() });
-    console.log("✅ Response from API:", response.data); 
+    console.log(" Response from API:", response.data); 
     return response.data;
 };
 
 export const getInstructorsByStudent = async (studentId) => {
     try {
-        console.log("📢 Fetching instructors for student:", studentId);
         const response = await axios.get(`${API_URL}/instructor/${studentId}`, {
             headers: getAuthHeader(),
         });
-        console.log("✅ Response:", response.data);
+        console.log(" Response:", response.data);
         return response.data;
     } catch (error) {
-        console.error("❌ Error fetching instructors:", error.response?.data || error.message);
+        console.error(" Error fetching instructors:", error.response?.data || error.message);
         return [];
     }
 };

@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:2000/api/admin"
+const API_URL = "https://portfolio-project-1-54a8.onrender.com/api/admin"
 
 const getAuthHeaders = () => {
     const token = localStorage.getItem("token");
