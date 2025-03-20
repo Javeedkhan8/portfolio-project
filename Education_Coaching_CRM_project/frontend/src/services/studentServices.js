@@ -4,7 +4,7 @@ import { getAuthHeader } from "./authServices";
 const token = localStorage.getItem("token");
 
 
-const API_URL = "https://portfolio-project-1-54a8.onrender.com/api/students";
+const API_URL = "https://portfolio-project-3-b7wt.onrender.com/api/students";
 
 export const getStudents = async () => {
     const response = await axios.get(API_URL,{headers:getAuthHeader()});

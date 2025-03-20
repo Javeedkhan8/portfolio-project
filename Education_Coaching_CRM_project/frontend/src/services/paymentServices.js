@@ -1,7 +1,7 @@
 import axios from "axios";
 
 
-const API_URL = "https://portfolio-project-1-54a8.onrender.com/api/payments";
+const API_URL = "https://portfolio-project-3-b7wt.onrender.com/api/payments";
 
 
 export const createOrder = async (amount) => {

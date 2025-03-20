@@ -3,7 +3,7 @@ import {getAuthHeader} from "./authServices"
 
 const token = localStorage.getItem("token");
 
-const API_URL = "https://portfolio-project-1-54a8.onrender.com/api/instructor";
+const API_URL = "https://portfolio-project-3-b7wt.onrender.com/api/instructor";
 
 
 export const getInstructorCourses = async () => {

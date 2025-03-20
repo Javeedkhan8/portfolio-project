@@ -1,7 +1,7 @@
 import axios from "axios";
 import { getAuthHeader } from "./authServices";
 
-const API_URL = "https://portfolio-project-1-54a8.onrender.com/api/chat";
+const API_URL = "https://portfolio-project-3-b7wt.onrender.com/api/chat";
 
 /**
  * Sends a message

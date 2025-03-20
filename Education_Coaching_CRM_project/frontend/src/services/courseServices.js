@@ -1,7 +1,7 @@
 import axios from "axios";
 import { getAuthHeader } from "./authServices";
 
-const API_URL = "https://portfolio-project-1-54a8.onrender.com/api/courses";
+const API_URL = "https://portfolio-project-3-b7wt.onrender.com/api/courses";
 
 export const getCourses = async () => {
     const response = await axios.get(API_URL, { headers: getAuthHeader() });
