@@ -2,6 +2,7 @@ import { useState } from "react";
 import { login, getUserRole } from "../services/authServices";
 import { useNavigate } from "react-router-dom";
 import LoginImage from "../assets/LoginImage.jpg";
+import { Link } from "react-router-dom";
 
 const LoginPage = () => {
     const [email, setEmail] = useState("");
@@ -99,9 +100,10 @@ const LoginPage = () => {
 
                     <p className="text-center text-gray-600 mt-4">
                         Don’t have an account?
-                        <a href="/register" className="text-black font-semibold hover:underline ml-1">
+                        <Link to="/register"
+                        className="text-black font-semibold hover:underline ml-1">
                             Sign Up For Free
-                        </a>
+                        </Link>
                     </p>
                 </div>
             </div>

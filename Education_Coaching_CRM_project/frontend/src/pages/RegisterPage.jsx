@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { register } from "../services/authServices";
 import { enrollStudent } from "../services/courseServices";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import StudentImage from "../assets/RegisterImage.jpg"; 
 
 const RegisterPage = () => {
@@ -96,9 +96,9 @@ const RegisterPage = () => {
 
                     <p className="text-center text-gray-600 mt-4">
                         Already have an account?
-                        <a href="/login" className="text-black font-semibold hover:underline ml-1">
+                        <Link to="/login" className="text-black font-semibold hover:underline ml-1">
                             Login here
-                        </a>
+                        </Link>
                     </p>
                 </div>
             </div>
