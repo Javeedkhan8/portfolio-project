@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBriefcase, faCode, faHome } from "@fortawesome/free-solid-svg-icons";
+import { faBriefcase, faCode, faHome, faCertificate } from "@fortawesome/free-solid-svg-icons";
 import DarkModeToggle from "./DarkModeToggle";
 
 const Navbar = () => {
@@ -17,6 +17,7 @@ const Navbar = () => {
         <NavItem to="/" icon={faHome} text="Home" />
         <NavItem to="/projects" icon={faBriefcase} text="Projects" />
         <NavItem to="/about" icon={faCode} text="Skills" />
+        <NavItem to="/certificates" icon={faCertificate} text="Certificates" /> {/* New Item */}
       </ul>
 
       {/* Dark Mode Toggle */}
