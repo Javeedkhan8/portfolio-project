@@ -21,27 +21,30 @@ const Hero = () => {
           <span className="text-blue-600 dark:text-blue-400">Javeedkhan J</span>
         </h1>
         <motion.p
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 0.3 }}
-          className="mt-4 text-sm sm:text-md md:text-lg leading-relaxed"
-        >
-         I am a MERN Stack Developer passionate about building scalable, user-centric web applications. Certified by GUVI (IIT Madras-incubated),
-          I have developed and deployed projects using
-          <span className="border-1 px-1 rounded-lg ml-1">React.js </span>
-          <span className="border-1 px-1 rounded-lg ml-1">Node.js</span>
-          <span className="border-1 px-1 rounded-lg ml-1">Express.js</span>
-          <span className="border-1 px-1 rounded-lg ml-1">MongoDB</span>
-          <span className="border-1 px-1 rounded-lg ml-1">TailwindCSS</span>
-        </motion.p>
+  initial={{ opacity: 0 }}
+  animate={{ opacity: 1 }}
+  transition={{ delay: 0.3 }}
+  className="mt-4 text-sm sm:text-md md:text-lg leading-relaxed text-center px-4"
+>
+  I am a MERN Stack Developer passionate about building scalable, user-centric web applications. 
+  Certified by GUVI (IIT Madras-incubated), I have developed and deployed projects using:
+  <div className="mt-2 flex flex-wrap justify-center gap-2">
+    <span className="border border-gray-500 px-2 py-1 rounded-lg text-sm">React.js</span>
+    <span className="border border-gray-500 px-2 py-1 rounded-lg text-sm">Node.js</span>
+    <span className="border border-gray-500 px-2 py-1 rounded-lg text-sm">Express.js</span>
+    <span className="border border-gray-500 px-2 py-1 rounded-lg text-sm">MongoDB</span>
+    <span className="border border-gray-500 px-2 py-1 rounded-lg text-sm">TailwindCSS</span>
+  </div>
+</motion.p>
+
 
         <div className="mt-6 flex flex-col sm:flex-row sm:items-center gap-4">
           <motion.a
-            href="https://drive.google.com/file/d/1FOmac_9_O0TR1HVkYYGUyMHzOF38iOmY/view"
+            href="https://drive.google.com/file/d/1CdR8B802ETCozjHN7-hj-N5iZuZlP7NI/view"
             download="Javeedkhan_Resume.pdf"
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.95 }}
-            className="resume-button px-4 sm:px-6 py-3 rounded-lg flex items-center gap-2 w-48 sm:w-52 shadow-lg transition-all duration-300 text-sm sm:text-base justify-center"
+            className="resume-button px-4 sm:px-6 py-3 rounded-lg flex items-center gap-2 w-48 sm:w-52 shadow-lg transition-all duration-300 text-sm sm:text-base justify-center border border-blue-400"
           >
             <FaDownload /> Download Resume
           </motion.a>

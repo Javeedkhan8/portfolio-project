@@ -70,7 +70,7 @@ const Projects = () => {
         <Swiper
           pagination={{ clickable: true }}
           navigation={true}
-          autoplay={{ delay: 2000, disableOnInteraction: false }} 
+          autoplay={{ delay: 3000, disableOnInteraction: false }} 
           loop={true} 
           modules={[Pagination, Navigation, Autoplay]} 
           className="mySwiper"
@@ -97,7 +97,7 @@ const Projects = () => {
                   href={project.repoLink}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="bg-gray-800 text-white px-4 py-2 rounded-md hover:bg-gray-900 transition"
+                  className="border border-blue-400  px-4 py-2 rounded-md hover:bg-gray-900 transition"
                 >
                   GitHub Repo
                 </a>
