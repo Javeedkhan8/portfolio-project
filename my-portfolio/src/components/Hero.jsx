@@ -40,7 +40,7 @@ const Hero = () => {
 
         <div className="mt-6 flex flex-col sm:flex-row sm:items-center gap-4">
           <motion.a
-            href="https://drive.google.com/file/d/1CdR8B802ETCozjHN7-hj-N5iZuZlP7NI/view"
+            href="https://drive.google.com/drive/folders/1Chzl7gRApdEhx-Lk_lO9SIQqK9q5lyaM"
             download="Javeedkhan_Resume.pdf"
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.95 }}
