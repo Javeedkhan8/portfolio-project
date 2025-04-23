@@ -1,7 +1,7 @@
 import { useState, useContext } from 'react';
 import { login } from '../services/authService';
 import { AuthContext } from '../context/AuthContext';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate,Link } from 'react-router-dom';
 
 const Login = () => {
   const [form, setForm] = useState({ email: '', password: '' });
@@ -57,9 +57,9 @@ const Login = () => {
         </button>
         <p className="text-center text-gray-600">
           Don't have an account?{' '}
-          <a href="/register" className="text-purple-600 hover:underline">
+          <Link to="/register" className="text-purple-600 hover:underline">
             Register here
-          </a>
+          </Link>
         </p>
       </form>
     </div>
