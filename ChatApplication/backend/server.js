@@ -23,7 +23,7 @@ connectDB()
 
 const io = new Server(server,{
     cors:{
-        origin:"http://localhost:5173",
+        origin:"https://peaceful-melomakarona-29db18.netlify.app/",
         methods: ["GET","POST"]    
     }
 });
