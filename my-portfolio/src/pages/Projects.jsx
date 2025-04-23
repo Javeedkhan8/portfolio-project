@@ -9,11 +9,11 @@ import CollegePlacement2 from "../assets/CollegePlacement1.png";
 import CollegePlacement3 from "../assets/CollegePlacement2.png";
 import CollegePlacement4 from "../assets/CollegePlacement3.png";
 import CollegePlacement5 from "../assets/CollegePlacement4.png";
-import CarRent1 from "../assets/CarRent.png";
-import CarRent2 from "../assets/CarRent1.png";
-import CarRent3 from "../assets/CarRent2.png";
-import CarRent4 from "../assets/CarRent3.png";
-import CarRent5 from "../assets/CarRent4.png";
+import Companio1 from "../assets/Companio1.png"
+import Companio2 from "../assets/Companio2.png"
+import Companio3 from "../assets/Companio3.png"
+import Companio4 from "../assets/Companio4.png"
+import Companio5 from "../assets/Companio5.png"
 import CRM1 from "../assets/CRM.png";
 import CRM2 from "../assets/CRM1.png";
 import CRM3 from "../assets/CRM2.png";
@@ -25,33 +25,22 @@ import LandingPage3 from "../assets/LandingPage2.png";
 import LandingPage4 from "../assets/LandingPage3.png";
 import LandingPage5 from "../assets/LandingPage4.png";
 import LandingPage6 from "../assets/LandingPage5.png";
-import Companio1 from "../assets/Companio.png";
-import Companio2 from "../assets/Companio1.png";
-import Companio3 from "../assets/Companio2.png";
-import Companio4 from "../assets/Companio3.png";
-import Companio5 from "../assets/Companio4.png";
-import Companio6 from "../assets/Companio5.png";
-import Movie1 from "../assets/Movie.png";
-import Movie2 from "../assets/Movie1.png";
-import Movie3 from "../assets/Movie2.png";
+
+import Chat1 from "../assets/Chat.png"
+import Chat2 from "../assets/Chat1.png"
+import Chat3 from "../assets/Chat2.png"
+import Chat4 from "../assets/Chat3.png"
+import Chat5 from "../assets/Chat4.png"
+import Ecommerce1 from "../assets/Ecommerce.png"
+import Ecommerce2 from "../assets/Ecommerce1.png"
+import Ecommerce3 from "../assets/Ecommerce2.png"
+import Ecommerce4 from "../assets/Ecommerce3.png"
+import Ecommerce5 from "../assets/Ecommerce4.png"
+import Ecommerce6 from "../assets/Ecommerce5.png"
+
+
 
 const projects = [
-  {
-    name: "College Placement Management System",
-    description:
-      "A system that helps colleges manage student placements, track job offers, and streamline recruitment.",
-    images: [CollegePlacement2, CollegePlacement3, CollegePlacement4, CollegePlacement1, CollegePlacement5],
-    liveLink: "https://ephemeral-babka-684b8a.netlify.app/",
-    repoLink: "https://github.com/Javeedkhan8/guvi-task/tree/main/Project-2",
-  },
-  {
-    name: "Online Rental Vehicle System",
-    description:
-      "A platform for renting vehicles online, allowing users to book cars and manage their rentals.",
-    images: [CarRent2, CarRent1, CarRent3, CarRent4, CarRent5],
-    liveLink: "https://melodious-fenglisu-44f3b1.netlify.app/",
-    repoLink: "https://github.com/Javeedkhan8/guvi-task/tree/main/Project-1",
-  },
   {
     name: "TrackEdu - Education & Coaching CRM",
     description:
@@ -61,21 +50,37 @@ const projects = [
     repoLink: "https://github.com/Javeedkhan8/portfolio-project/tree/main/Education_Coaching_CRM_project",
   },
   {
-    name: "Companio",
+    name: "Chat Application",
     description:
-      "Companio is a social connection app that lets users browse, like, and filter profiles to find and connect with like-minded people.",
-    images: [Companio1, Companio2, Companio3, Companio4, Companio5, Companio6],
-    liveLink: "https://remarkable-lokum-17e855.netlify.app/",
-    repoLink: "https://github.com/Javeedkhan8/portfolio-project/tree/main/Dating-app",
+      "This chat application enables real-time messaging between users with secure login and instant communication using Socket.IO.",
+    images: [Chat1,Chat2,Chat3,Chat4,Chat5],
+    liveLink: "https://polite-klepon-a6d4ce.netlify.app/",
+    repoLink: "https://github.com/Javeedkhan8/portfolio-project/tree/main/ChatApplication",
   },
   {
-    name: "Movie Couch",
+    name: "E-Commerce Application",
     description:
-      "Movie Couch is a movie finder app that allows users to search for movies and TV shows, view details, and mark favorites.",
-    images: [Movie1, Movie2, Movie3],
-    liveLink: "https://astonishing-dusk-09e557.netlify.app/",
-    repoLink: "https://github.com/Javeedkhan8/guvi-task/tree/main/Task-7",
+      "This e-commerce application allows users to browse products, manage a cart, and securely make payments using integrated gateways like Razorpay.",
+    images: [Ecommerce1,Ecommerce2,Ecommerce3,Ecommerce4,Ecommerce5,Ecommerce6],
+    liveLink: "https://tangerine-dolphin-4259a2.netlify.app/",
+    repoLink: "https://github.com/Javeedkhan8/portfolio-project/tree/main/E-commerce-project",
   },
+  {
+    name: "College Placement Management System",
+    description:
+      "A system that helps colleges manage student placements, track job offers, and streamline recruitment.",
+    images: [CollegePlacement2, CollegePlacement3, CollegePlacement4, CollegePlacement1, CollegePlacement5],
+    liveLink: "https://ephemeral-babka-684b8a.netlify.app/",
+    repoLink: "https://github.com/Javeedkhan8/guvi-task/tree/main/Project-2",
+  },
+  {
+      name: "Companio",
+      description:
+        "Companio is a social connection app that lets users browse, like, and filter profiles to find and connect with like-minded people.",
+      images: [Companio1,Companio2,Companio3,Companio4,Companio5],
+      liveLink: "https://remarkable-lokum-17e855.netlify.app/",
+      repoLink: "https://github.com/Javeedkhan8/portfolio-project/tree/main/Dating-app",
+    },
   {
     name: "Landing Page",
     description:

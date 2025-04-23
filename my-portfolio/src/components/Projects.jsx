@@ -4,30 +4,15 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { Pagination, Navigation, Autoplay } from "swiper/modules"; 
 import CollegePlacement from "../assets/CollegePlacement.png";
-import CarRent from "../assets/CarRent.png";
-import CRM from "../assets/CRM.png";
+import Ecommerce from "../assets/Ecommerce2.png"
+import Chat from "../assets/Chat4.png"
+import CRM from "../assets/CRM1.png";
 import LandingPage from "../assets/LandingPage.png";
 import Companio from "../assets/Companio.png";
-import Movie from "../assets/Movie.png";
+
 
 
 const projects = [
-  {
-    name: "College Placement Management System",
-    description:
-      "A system that helps colleges manage student placements, track job offers, and streamline recruitment.",
-    image: CollegePlacement,
-    liveLink: "https://ephemeral-babka-684b8a.netlify.app/",
-    repoLink: "https://github.com/Javeedkhan8/guvi-task/tree/main/Project-2",
-  },
-  {
-    name: "Online Rental Vehicle System",
-    description:
-      "A platform for renting vehicles online, allowing users to book cars and manage their rentals.",
-    image: CarRent,
-    liveLink: "https://melodious-fenglisu-44f3b1.netlify.app/",
-    repoLink: "https://github.com/Javeedkhan8/guvi-task/tree/main/Project-1",
-  },
   {
     name: "TrackEdu - Education & Coaching CRM",
     description:
@@ -37,20 +22,36 @@ const projects = [
     repoLink: "https://github.com/Javeedkhan8/portfolio-project/tree/main/Education_Coaching_CRM_project",
   },
   {
+      name: "E-Commerce Application",
+      description:
+        "This e-commerce application allows users to browse products, manage a cart, and securely make payments using integrated gateways like Razorpay.",
+      image: Ecommerce,
+      liveLink: "https://tangerine-dolphin-4259a2.netlify.app/",
+      repoLink: "https://github.com/Javeedkhan8/portfolio-project/tree/main/E-commerce-project",
+    },
+    {
+        name: "Chat Application",
+        description:
+          "This chat application enables real-time messaging between users with secure login and instant communication using Socket.IO.",
+        image: Chat,
+        liveLink: "https://polite-klepon-a6d4ce.netlify.app/",
+        repoLink: "https://github.com/Javeedkhan8/portfolio-project/tree/main/ChatApplication",
+      },
+      {
+        name: "College Placement Management System",
+        description:
+          "A system that helps colleges manage student placements, track job offers, and streamline recruitment.",
+        image: CollegePlacement,
+        liveLink: "https://ephemeral-babka-684b8a.netlify.app/",
+        repoLink: "https://github.com/Javeedkhan8/guvi-task/tree/main/Project-2",
+      },
+   {
     name: "Companio",
     description:
       "Companio is a social connection app that lets users browse, like, and filter profiles to find and connect with like-minded people.",
     image: Companio,
     liveLink: "https://remarkable-lokum-17e855.netlify.app/",
     repoLink: "https://github.com/Javeedkhan8/portfolio-project/tree/main/Dating-app",
-  },
-  {
-    name: "Movie Couch",
-    description:
-      "Movie Couch is a movie finder app that allows users to search for movies and TV shows, view details, and mark favorites.",
-    image: Movie,
-    liveLink: "https://astonishing-dusk-09e557.netlify.app/",
-    repoLink: "https://github.com/Javeedkhan8/guvi-task/tree/main/Task-7",
   },
   {
     name: "Landing Page",
