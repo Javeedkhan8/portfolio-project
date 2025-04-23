@@ -70,8 +70,19 @@ const ManageProducts = () => {
   };
 
   const handleDelete = async (id) => {
-    await deleteProduct(id);
-    setProducts(products.filter((product) => product._id !== id));
+    const token = localStorage.getItem("token");
+    if (!token) {
+      alert("You are not authorized. Please login.");
+      return;
+    }
+    try {
+      await deleteProduct(id, token);
+      setProducts(products.filter((product) => product._id !== id));
+      toast.success("Product deleted successfully!");
+    } catch (error) {
+      console.error("Delete failed:", error);
+      toast.error("Delete failed. Please try again.");
+    }
   };
 
   return (
