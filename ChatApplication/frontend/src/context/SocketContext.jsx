@@ -11,7 +11,7 @@ export const SocketProvider = ({ children }) => {
 
   useEffect(() => {
     if (user) {
-      const newSocket = io("https://portfolio-project-4-h2ne.onrender.com");
+      const newSocket = io("https://portfolio-project-5-d4we.onrender.com");
       console.log("Joining room with ID:", user?.id);
       newSocket.emit("join", user?.id);
       setSocket(newSocket);

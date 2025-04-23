@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "https://portfolio-project-4-h2ne.onrender.com/api/message/"
+const API_URL = "https://portfolio-project-5-d4we.onrender.com/api/message/"
 
 export const sendMessage = (message,token) => {
     return axios.post(API_URL,message,{
