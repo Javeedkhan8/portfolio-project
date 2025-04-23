@@ -1,8 +1,19 @@
-# React + Vite
+# Companio - Frontend Only
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Companio** is a frontend-only chat and social interaction application built using React. It connects to a third-party backend API for authentication, user data, and real-time messaging. This project focuses on delivering a clean, responsive UI for users to chat and connect.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
+
+- ✅ User Registration & Login
+- ✅ Responsive Chat Interface
+- ✅ User List with Search & Selection
+- ✅ Message Timestamps
+- ✅ Conditional Rendering Based on Auth Status
+- ✅ Clean and Modern UI using Tailwind CSS (or plain CSS depending on your setup)
+
+---
+
+
+
